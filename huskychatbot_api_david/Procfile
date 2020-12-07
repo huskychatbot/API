@@ -1,0 +1,1 @@
+web: gunicorn huskychatbot_api_david.wsgi

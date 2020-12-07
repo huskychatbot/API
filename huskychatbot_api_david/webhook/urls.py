@@ -3,5 +3,6 @@ from . import views
 
 app_name = 'webhook'
 urlpatterns = [
-    path('webhook/', views.webhook, name='webhook'),
+    path('weather/', views.weather, name='weather'),
+    path('exchangeRate/', views.exchangeRate, name='exchangeRate'),
 ]
